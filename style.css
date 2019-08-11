@@ -1,0 +1,14 @@
+:root {
+    --my-black-background: #160101;
+    --my-yellow-background: #FAD102;
+    --my-white-letters: #ffffff;
+    --my-yellow-letters: #FAD102;
+    --my-gradient-background: #fbb034;
+    --my-gradient-background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+body {
+    margin: 0 auto;
+    background-color: var(--my-yellow-background);
+    height: 100%;
+}
