@@ -46,6 +46,11 @@ body {
     display: flex;
 }
 
+#menuknap {
+    color: #ffffff;
+    opacity: 0;
+}
+
 nav p {
     font-size: 1rem;
 }
@@ -83,4 +88,38 @@ nav a {
     align-self: ;
     margin-right: 2vw;
     margin-bottom: 2vw;
+}
+
+.dropdown {
+    position: absolute;
+    left: 87vw;
+    width: 6vw;
+    line-height: 2.1vw;
+    opacity: 1;
+
+}
+
+.dropdown-content p {
+    position: relative;
+    left: 1.3vw;
+    top: 1.5vw;
+    color: #FAD102;
+}
+
+.dropbutton {
+    position: relative;
+    opacity: 0;
+}
+
+.dropdown-content {
+    position: relative;
+    right: 1vw;
+    bottom: 0.6vw;
+    background-image: linear-gradient(to right top, #1b1414, #1c1515, #1d1717, #1f1818, #201919, #211a1a, #231a1a, #241b1b, #261c1c, #271d1d, #291e1e, #2b1f1f);
+    width: 6.4vw;
+}
+
+.dropdown-content a {
+    position: relative;
+    left: 1.3vw;
 }
