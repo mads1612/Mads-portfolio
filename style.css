@@ -119,6 +119,14 @@ nav a {
     width: 6.4vw;
 }
 
+.dropdown-content a:hover {
+    color: purple;
+}
+
+.dropdown:hover {
+    opacity: 0.9;
+}
+
 .dropdown-content a {
     position: relative;
     left: 1.3vw;
