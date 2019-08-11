@@ -45,3 +45,42 @@ body {
 .flex {
     display: flex;
 }
+
+nav p {
+    font-size: 1rem;
+}
+
+nav {
+    height: 3.2vw;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#navigations-logo {
+    flex-basis: 15vw;
+    height: 6.5vw;
+}
+
+#navigations-logo img {
+    width: 2vw;
+    height: 2vw;
+    margin-top: -0.8vw;
+
+}
+
+#navigations-logo p {
+    margin-top: -0.5vw;
+}
+
+#navigations-knapper {
+    flex-basis: 17.7vw;
+    align-self: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FAD102;
+    align-self: ;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
