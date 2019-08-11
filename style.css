@@ -14,6 +14,11 @@ body {
 }
 
 
+img {
+    width: 100%;
+}
+
+
 h1 {
     font-family: star-bold;
     color: #FAD102;
@@ -94,6 +99,37 @@ a {
 
 .flex {
     display: flex;
+}
+
+
+#portfolio {
+    overflow: hidden;
+}
+
+
+
+#box {
+    border: 2vw solid;
+    margin: 5vw;
+    border-radius: 3vw;
+}
+
+#intro-container {
+    justify-content: center;
+
+}
+
+#top-txt {
+    border-radius: 3vw;
+    text-align: center;
+}
+
+#top-txt p {
+    width: 60vw;
+}
+
+#top-txt h1 {
+    text-align: center;
 }
 
 #menuknap {
