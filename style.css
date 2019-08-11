@@ -832,4 +832,30 @@ nav a {
         font-size: 0.7rem;
     }
 
+    #sidebar {
+        position: absolute;
+        top: 90%;
+        width: 25vw;
+        background-color: #130f40;
+        background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+        opacity: 0.8
+    }
+
+    #sidebar a {
+        display: flex;
+        color: #FAD102;
+        padding: 3vw;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 0.95rem;
+        cursor: pointer;
+    }
+
+    #sidebar a:hover {
+        color: #ffffff;
+    }
+
+    .hide-pic {
+        display: none;
+    }
 }
