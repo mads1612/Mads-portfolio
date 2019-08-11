@@ -92,3 +92,16 @@ function temaContainerToggle() {
         document.querySelector("#tema-container4").classList.remove = "hide";
     }
 }
+
+function menuKnapDisplay() {
+    console.log("menuKnapDisplay");
+    //toggle af class hide
+    document.querySelector("#sidebar").classList.toggle("hide");
+    //Her tjekkes der om elementet indeholder class hide
+    let menuKnapErSkjult = document.querySelector("#sidebar").classList.contains("hide");
+    if (menuKnapErSkjult == true) {
+        document.querySelector("#menuknap").textContent = "☰";
+    } else {
+        document.querySelector("#menuknap").textContent = "X";
+    }
+}
