@@ -131,3 +131,26 @@ nav a {
     position: relative;
     left: 1.3vw;
 }
+
+#kontakt-row {
+    text-align: center;
+    justify-content: space-around;
+}
+
+#kontakt-row img {
+    width: 4vw;
+}
+
+#kontakt-row p {
+    font-size: 1rem;
+}
+
+.circle {
+    margin-left: 0vw;
+    margin-right: 0vw;
+}
+
+#circle-link {
+    margin-right: 0vw;
+    margin-left: 0vw;
+}
