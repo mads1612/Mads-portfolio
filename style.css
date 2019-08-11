@@ -341,6 +341,83 @@ a {
     width: 73%;
 }
 
+#hover-square-tema1 {
+    font-family: tryst;
+    position: relative;
+    width: 87%;
+    left: 15%;
+    bottom: 69%;
+    opacity: 0;
+}
+
+#hover-square-tema2 {
+    font-family: tryst;
+    position: relative;
+    width: 87%;
+    left: 15%;
+    bottom: 69%;
+    opacity: 0;
+}
+
+#hover-square-tema3 {
+    font-family: tryst;
+    position: relative;
+    width: 87%;
+    left: 15%;
+    bottom: 69%;
+    opacity: 0;
+}
+
+#hover-square-tema4 {
+    font-family: tryst;
+    position: relative;
+    width: 87%;
+    left: 15%;
+    bottom: 69%;
+    opacity: 0;
+
+}
+
+.hover-knap {
+    position: relative;
+    align-self: center;
+    width: 80%;
+    border-radius: 2vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    cursor: pointer;
+    background-image: (315deg, #fbb034 0%, #ffdd00 74%);
+    background-color: #fbb034;
+
+
+}
+
+.hover-knap:hover {
+    background-color: #ffffff;
+}
+
+.hover-knap a {
+    font-size: 1.5rem;
+    color: #160101;
+}
+
+#hover-square-tema1:hover {
+    opacity: 1;
+}
+
+#hover-square-tema2:hover {
+    opacity: 1;
+}
+
+#hover-square-tema3:hover {
+    opacity: 1;
+}
+
+#hover-square-tema4:hover {
+    opacity: 1;
+}
+
 #menuknap {
     color: #ffffff;
     opacity: 0;
