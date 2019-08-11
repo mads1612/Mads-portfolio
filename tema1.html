@@ -20,10 +20,10 @@
 <body>
 
     <header>
-        <nav>
+        <nav class="flex">
 
 
-            <figure id="navigations-logo"><a href="forside.html"><img src="billeder/logogul.png" alt="Facebook">
+            <figure id="navigations-logo" class="flex"><a href="forside.html"><img src="billeder/logogul.png" alt="Facebook">
                 </a>
                 <figcaption>
                     <p>Mads Iversen</p>
@@ -50,7 +50,7 @@
 
         </nav>
         <div id="menuknap">☰</div>
-        <div id="sidebar">
+        <div id="sidebar" class="hide">
             <a class="active" href="om.html">Om</a>
             <a href="forside.html">Forside</a>
             <a href="portfolio.html">Portfolio</a>
@@ -62,11 +62,11 @@
     </header>
 
     <section id="tema-1">
-        <div class="tema-container1">
+        <div class="tema-container1 flex">
 
-            <div class="left-pictures-box">
+            <div class="left-pictures-box flex">
                 <figure class="right-pictures">
-                    <div>
+                    <div class=hide-pic>
                         <img src="billeder/splash.svg" alt="Stilarts splash">
                     </div>
                     <img src="billeder/stilartscre.svg" alt="Stilarts screenshot">
@@ -74,7 +74,7 @@
 
             </div>
 
-            <div class="right-column-box">
+            <div class="right-column-box black flex">
                 <div class="right-column-txt">
                     <h1>Tema 1</h1>
                     <h2>Grundlægende web</h2>
@@ -88,10 +88,11 @@
                     <a href="http://madsiversenn.dk/kea/01_web/04_responsive/01_04_01_responsive_site_v2/?1">Website</a>
                     <a href="http://madsiversenn.dk/kea/01_web/03_ui/01_03_04_styletile_v2/">Dokumentationssite</a>
                 </div>
-            </div></div>
+            </div>
+        </div>
     </section>
     <footer>
-        <div id="kontakt-row">
+        <div id="kontakt-row" class="black flex">
             <figure class="circle">
                 <img src="billeder/name.png" alt="Navn">
                 <div class="footer-txt">
@@ -102,7 +103,8 @@
                 <img src="billeder/email.png" alt="Email">
                 <div class="footer-txt">
                     <p>Madsiversen@hotmail.com</p>
-                </div></figure>
+                </div>
+            </figure>
             <figure class="circle">
                 <img src="billeder/tlf.png" alt="Telefon">
                 <div class="footer-txt">
@@ -125,4 +127,6 @@
     </footer>
 
     <script src="script.js"></script>
-</body></html>
+</body>
+
+</html>
