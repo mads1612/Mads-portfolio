@@ -19,9 +19,9 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="flex">
 
-            <figure id="navigations-logo"><a href="forside.html"><img src="billeder/logogul.png" alt="Facebook">
+            <figure id="navigations-logo" class="flex"><a href="forside.html"><img src="billeder/logogul.png" alt="Facebook">
                 </a>
                 <figcaption>
                     <p>Mads Iversen</p>
@@ -48,7 +48,7 @@
 
         </nav>
         <div id="menuknap">☰</div>
-        <div id="sidebar">
+        <div id="sidebar" class="hide">
             <a class="active" href="om.html">Om</a>
             <a href="forside.html">Forside</a>
             <a href="portfolio.html">Portfolio</a>
@@ -59,38 +59,38 @@
         </div>
     </header>
     <section id="om">
-        <div id="om-container">
-            <div id="column-left">
+        <div id="om-container" class="flex">
+            <div id="column-left" class="flex">
                 <figure class="left-pic">
                     <img src="billeder/profil.jpg" alt="Profil">
                 </figure>
-                <div class="om-txt">
+                <div class="om-txt  black">
                     <h1>Erfaring</h1>
                     <p>Ved siden af uddannelsen driver jeg en virksomhed “Iversen Stagecrew” Vi leverer forskellige services til opsætning af events såsom koncerter,teater og konferencer. Det at være i denne branche har gjort mig bedre til at løse uforudsigelig udfordringer og arbejde som et team. </p>
 
                 </div>
-                <div id="skillz">
+                <div id="skillz" class="black">
                     <h1>My Skills</h1>
                     <p>Kodning</p>
                     <div class="container">
-                        <div class="skills html"></div>
+                        <div class="skills html yellow-background"></div>
                     </div>
                     <p>Design</p>
                     <div class="container">
-                        <div class="skills css"></div>
+                        <div class="skills css yellow-background"></div>
                     </div>
                     <p>Idegenerering</p>
                     <div class="container">
-                        <div class="skills js"></div>
+                        <div class="skills js yellow-background"></div>
                     </div>
                     <p>Videoproduktion</p>
                     <div class="container">
-                        <div class="skills php"></div>
+                        <div class="skills php yellow-background"></div>
                     </div>
                 </div>
             </div>
-            <div id="column-right">
-                <div class="om-txt">
+            <div id="column-right" class="flex">
+                <div class="om-txt black">
 
                     <h1>Om mig</h1>
                     <p>Jeg hedder Mads Iversen og er 27 år gammel. Ser mig selv som en glad og udadvendt person. Er bosat i København NV og ser fremtil hvad studiet som Multimedia designer har at byde på.
@@ -104,7 +104,7 @@
     </section>
 
     <footer>
-        <div id="kontakt-row">
+        <div id="kontakt-row" class="black flex">
             <figure class="circle">
                 <img src="billeder/name.png" alt="Navn">
                 <div class="footer-txt">
