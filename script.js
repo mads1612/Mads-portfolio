@@ -53,3 +53,42 @@ function hideTemaContainers124() {
     document.querySelector("#tema-container2").classList.add("hide");
     document.querySelector("#tema-container4").classList.add("hide");
 }
+
+function temaContainerToggle() {
+    console.log("temaContainerToggle");
+    // toggle mellem hide af tema container udfra statement true eller false
+    document.querySelector("#tema-container1").classList.toggle("hide");
+    document.querySelector("#tema-container2").classList.toggle("hide");
+    document.querySelector("#tema-container3").classList.toggle("hide");
+    document.querySelector("#tema-container4").classList.toggle("hide");
+    //Hvis tema 1, 2, 3 og 4 har class hide skal den fjernes
+    let VisTema1 = document.querySelector("#tema-container1").classList.remove("hide");
+    let VisTema2 = document.querySelector("#tema-container2").classList.remove("hide");
+    let VisTema3 = document.querySelector("#tema-container3").classList.remove("hide");
+    let VisTema4 = document.querySelector("#tema-container4").classList.remove("hide");
+
+    //Her tjekkes der om tema1 har class hide
+    if (VisTema1 == true) {
+        document.querySelector("#tema-container1").classList.add = "hide";
+    } else window.scrollTo(0, 100); {
+        document.querySelector("#tema-container1").classList.remove = "hide";
+    }
+    //Her tjekkes der om tema2 har class hide
+    if (VisTema2 == true) {
+        document.querySelector("#tema-container2").classList.add = "hide";
+    } else window.scrollTo(0, 100); {
+        document.querySelector("#tema-container2").classList.remove = "hide";
+    }
+    //Her tjekkes der om tema3 har class hide
+    if (VisTema3 == true) {
+        document.querySelector("#tema-container3").classList.add = "hide";
+    } else window.scrollTo(0, 100); {
+        document.querySelector("#tema-container3").classList.remove = "hide";
+    }
+    //Her tjekkes der om tema4 har class hide
+    if (VisTema4 == true) {
+        document.querySelector("#tema-container4").classList.add = "hide";
+    } else window.scrollTo(0, 100); {
+        document.querySelector("#tema-container4").classList.remove = "hide";
+    }
+}
