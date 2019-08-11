@@ -548,3 +548,21 @@ nav a {
     margin-right: 0vw;
     margin-left: 0vw;
 }
+
+.shrink {
+    animation-name: shrink_kf;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shrink_kf {
+    0% {
+        transform: scalex(0);
+    }
+
+    100% {
+        transform: scalex(1);
+    }
+}
