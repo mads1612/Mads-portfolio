@@ -209,8 +209,38 @@ a {
 
 #forside-logo {
     margin: auto;
-
 }
+
+.tema-container1 {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5vw;
+}
+
+.right-column-box {
+    border: 4vw solid;
+    border-radius: 2vw;
+    width: 77.3vw;
+    flex-basis: 50vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.left-pictures-box {
+    flex-direction: column;
+    align-self: center;
+}
+
+.right-pictures {
+    width: 22vw;
+}
+
+.right-pictures img {
+    width: 20vw;
+    margin: 5vw;
+}
+
 
 #menuknap {
     color: #ffffff;
