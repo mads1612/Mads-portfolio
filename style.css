@@ -566,3 +566,105 @@ nav a {
         transform: scalex(1);
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    #om img {
+        height: 45vw;
+        width: 45vw;
+    }
+
+    #skillz p {
+        font-size: 2rem;
+    }
+
+    #portfolio img {
+        width: 80%;
+    }
+
+    #hover-square-tema1 {
+        bottom: 60vw;
+        left: 17vw;
+        opacity: 1;
+    }
+
+    #hover-square-tema2 {
+        opacity: 1;
+        left: 17vw;
+        bottom: 60vw;
+    }
+
+    #hover-square-tema3 {
+        opacity: 1;
+        bottom: 60vw;
+        left: 17vw;
+    }
+
+    #hover-square-tema4 {
+        opacity: 1;
+        bottom: 60vw;
+        left: 17vw;
+    }
+
+    .hover-knap {
+        align-self: center;
+        width: 55vw;
+        margin-bottom: 5vw;
+        cursor: pointer;
+    }
+
+    .left-column-box {
+        flex-basis: 50vw;
+        align-self: center;
+        height: 100%;
+        margin-bottom: 5vw;
+        order: 2;
+    }
+
+    .left-pictures-box img {
+        width: 50vw;
+    }
+
+    .right-pictures {
+        width: 100%;
+    }
+
+    .right-pictures-box img {
+        width: 30vw;
+        height: 22vw;
+    }
+
+
+    #forside-box img {
+        height: 60vw;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #menuknap {
+        opacity: 1;
+        margin: 1vw;
+    }
+
+    .nav-button a {
+        font-size: 1rem;
+    }
+
+
+}
