@@ -13,11 +13,9 @@ body {
     height: 100%;
 }
 
-
 img {
     width: 100%;
 }
-
 
 h1 {
     font-family: star-bold;
@@ -67,6 +65,17 @@ a {
     font-style: normal;
 }
 
+.
+/*--------------------Indholdsfortegnelse-------------------
+1: Portfolio
+2: FORSIDE
+3: Tema
+4: Om
+5: diverse navigations/knapper
+6: Media queries
+-------------------------------------------------------*/
+
+/*--------------------classes med en enkelt funktion-------------------*/
 
 .hide {
     display: none;
@@ -101,6 +110,7 @@ a {
     display: flex;
 }
 
+/*--------------------Portfolio-------------------*/
 #portfolio {
     overflow: hidden;
 }
@@ -198,6 +208,8 @@ a {
     cursor: pointer;
 }
 
+/*--------------------Forside-------------------*/
+
 #forside {
     height: 100%;
     min-height: calc(100vh - 40px);
@@ -209,7 +221,10 @@ a {
 
 #forside-logo {
     margin: auto;
+
 }
+
+/*--------------------Tema section-------------------*/
 
 .tema-container1 {
     justify-content: space-around;
@@ -260,6 +275,8 @@ a {
     width: 20vw;
     margin: 5vw;
 }
+
+/*--------------------Om-------------------*/
 
 #om-container {
     justify-content: center;
@@ -340,6 +357,8 @@ a {
     border: 2vw solid;
     width: 73%;
 }
+
+/*--------------------Diverse navigation/knapper-------------------*/
 
 #hover-square-tema1 {
     font-family: tryst;
@@ -549,6 +568,8 @@ nav a {
     margin-left: 0vw;
 }
 
+/*--------------------animationer-------------------*/
+
 .shrink {
     animation-name: shrink_kf;
     animation-duration: 1s;
@@ -567,9 +588,11 @@ nav a {
     }
 }
 
+/*--------------------Tablet Media-------------------*/
 @media (min-width: 1024px) and (max-width: 1200px) {
 
 
+    /*--------------------Text-------------------*/
     h1 {
         font-size: 3rem;
         text-align: center;
@@ -583,6 +606,7 @@ nav a {
         font-size: 1.5rem;
     }
 
+    /*--------------------Om Section-------------------*/
     #om img {
         height: 45vw;
         width: 45vw;
@@ -592,6 +616,7 @@ nav a {
         font-size: 2rem;
     }
 
+    /*--------------------Portfolio-------------------*/
     #portfolio img {
         width: 80%;
     }
@@ -627,6 +652,9 @@ nav a {
         cursor: pointer;
     }
 
+
+    /*--------------------Tema section-------------------*/
+
     .left-column-box {
         flex-basis: 50vw;
         align-self: center;
@@ -649,10 +677,12 @@ nav a {
     }
 
 
+    /*--------------------Forside section-------------------*/
     #forside-box img {
         height: 60vw;
     }
 
+    /*--------------------Diverse navigation-------------------*/
     nav {
         display: none;
     }
@@ -689,16 +719,18 @@ nav a {
         color: #ffffff;
     }
 
+    /*--------------------classes-------------------*/
 
     .hide-pic {
         display: none;
     }
-
-
 }
 
+
+/*--------------------Smartphone og mindre Tablet Media-------------------*/
 @media (min-width: 320px) and (max-width: 1024px) {
 
+    /*--------------------Text-------------------*/
     p {
         font-size: 1rem;
     }
@@ -718,6 +750,7 @@ nav a {
         font-size: 0.5rem;
     }
 
+    /*--------------------Om Section-------------------*/
     #om img {
         height: 65vw;
         width: 65vw;
@@ -731,6 +764,7 @@ nav a {
         height: 4vw;
     }
 
+    /*--------------------Portfolio-------------------*/
     #box {
         margin-top: 20vw;
     }
@@ -782,6 +816,7 @@ nav a {
         cursor: pointer;
     }
 
+    /*--------------------Tema section-------------------*/
     .tema-container2 {
         flex-direction: column-reverse;
         margin-bottom: 10vw;
@@ -809,6 +844,7 @@ nav a {
         height: 20vw;
     }
 
+    /*--------------------Forside section-------------------*/
     #forside img {
         height: 190vw;
         width: 190vw;
@@ -819,6 +855,7 @@ nav a {
         overflow: hidden;
     }
 
+    /*--------------------Diverse navigation-------------------*/
     nav {
         display: none;
     }
@@ -855,11 +892,13 @@ nav a {
         color: #ffffff;
     }
 
+    /*--------------------classes-------------------*/
     .hide-pic {
         display: none;
     }
 }
 
+/*--------------------Smartphone Media-------------------*/
 @media (min-width: 320px) and (max-width: 410px) {
 
     h2 {
