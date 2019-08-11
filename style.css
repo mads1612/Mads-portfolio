@@ -106,7 +106,11 @@ a {
     overflow: hidden;
 }
 
+#portfolio-indhold {
+    width: 100vw;
+    flex-wrap: wrap;
 
+}
 
 #box {
     border: 2vw solid;
@@ -117,6 +121,10 @@ a {
 #intro-container {
     justify-content: center;
 
+}
+
+#portfolio img {
+    width: 35vw;
 }
 
 #top-txt {
@@ -130,6 +138,14 @@ a {
 
 #top-txt h1 {
     text-align: center;
+}
+
+.top-row {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    width: 90vw;
+    margin: auto;
 }
 
 #menuknap {
