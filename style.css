@@ -261,6 +261,85 @@ a {
     margin: 5vw;
 }
 
+#om-container {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80.7vw;
+    margin: 10vw;
+}
+
+#om img {
+    width: 25vw;
+    margin: 5vw;
+}
+
+#column-left {
+    flex-direction: column;
+    flex-basis: 40vw;
+    justify-content: space-around;
+}
+
+#column-right {
+    flex-direction: column;
+    flex-basis: 40vw;
+    justify-content: space-around;
+    margin-bottom: 40vw;
+}
+
+#skillz {
+    align-self: center;
+    margin: 5vw;
+    width: 60%;
+    flex-basis: 28vw;
+    border: 1vw solid;
+}
+
+#skillz p {
+    margin: auto;
+    font-size: 1rem;
+}
+
+#skillz h1 {
+    font-size: 2rem;
+}
+
+.container {
+    margin: 1vw;
+    background-color: #ffffff;
+}
+
+.skills {
+    flex-basis: 22vw;
+    text-align: center;
+}
+
+.html {
+    height: 1.5vw;
+    width: 60%;
+}
+
+.css {
+    height: 1.5vw;
+    width: 50%;
+}
+
+.js {
+    height: 1.5vw;
+    width: 40%;
+}
+
+.php {
+    height: 1.5vw;
+    width: 45%;
+}
+
+.om-txt {
+    flex-basis: 20vw;
+    align-self: center;
+    border: 2vw solid;
+    width: 73%;
+}
 
 #menuknap {
     color: #ffffff;
