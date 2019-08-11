@@ -217,7 +217,23 @@ a {
     margin: 5vw;
 }
 
+.tema-container2 {
+    flex-wrap: wrap;
+    margin: 5vw;
+    justify-content: center;
+}
+
 .right-column-box {
+    border: 4vw solid;
+    border-radius: 2vw;
+    width: 77.3vw;
+    flex-basis: 50vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.left-column-box {
     border: 4vw solid;
     border-radius: 2vw;
     width: 77.3vw;
@@ -229,6 +245,10 @@ a {
 
 .left-pictures-box {
     flex-direction: column;
+    align-self: center;
+}
+
+.right-pictures-box {
     align-self: center;
 }
 
