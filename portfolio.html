@@ -19,10 +19,10 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="flex">
 
 
-            <figure id="navigations-logo"><a href="forside.html"><img src="billeder/logogul.png" alt="Facebook">
+            <figure id="navigations-logo" class="flex"><a href="forside.html"><img src="billeder/logogul.png" alt="Facebook">
                 </a>
                 <figcaption>
                     <p>Mads Iversen</p>
@@ -49,7 +49,7 @@
 
         </nav>
         <div id="menuknap">☰</div>
-        <div id="sidebar">
+        <div id="sidebar" class="hide">
             <a class="active" href="om.html">Om</a>
             <a href="forside.html">Forside</a>
             <a href="portfolio.html">Portfolio</a>
@@ -61,17 +61,17 @@
     </header>
 
     <section id="portfolio">
-        <div id="intro-container">
-            <div id="box">
+        <div id="intro-container" class="flex">
+            <div id="box" class="black">
                 <div id="top-txt">
                     <h1>Mit portfolio</h1>
                     <p>En samling af de projekter jeg har været igennem i det 1. semester af min MMD uddanelsen</p>
                 </div>
             </div>
         </div>
-        <div id="popup-container">
+        <div id="popup-container" class="flex">
             <div class="tema-container" id="tema-container1">
-                <div id="tema1-column">
+                <div id="tema1-column" class="black shrink flex">
                     <div class="popup-txt">
                         <h2>Grundlægende web</h2>
                         <p>I det første tema fik man en grundlæggende viden omkring de mest anvendte redskaber indenfor multimedia design. Man blev introduceret til design og opsætning af websites ved brug adobe pakken og implementation af html og css. Hvilket skabte en basisviden om de forskellige værktøjer man kommer til at tage i brug på resten af uddanelsen. </p>
@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="tema-container" id="tema-container2">
-                <div id="tema2-column">
+                <div id="tema2-column" class="black shrink flex">
                     <div class="popup-txt">
                         <h2>Grundlægende animation</h2>
                         <p>I Grundlæggende animation bliver man introduceret til animationsteknikker. Her fokuseres der både på visuelle og tekniske implementations muligheder. Her blev jeg introduceret til baggrundsdesign, karakterdesign, figuranimation og interaktiv storytelling. Med en mix af css animationer og javascript fik jeg en grundlæggende ide om hvordan man kan gøre et website mere levende ved at bestemme rækkefølgen af de implementeret animationer </p>
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="tema-container" id="tema-container3">
-                <div id="tema3-column">
+                <div id="tema3-column" class="black shrink flex">
                     <div class="popup-txt">
                         <h2>Grundlægende indhold</h2>
                         <p>Her fik man en grundlæggende viden omkring videoproduktion med fokus på planlægning og redigering ved brug af Adobe programmer som premiere pro og audition. Denne viden og det man lærte i det første tema skal tages i brug til et redesign af en selvalgt virksomhed.
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="tema-container" id="tema-container4">
-                <div id="tema4-column">
+                <div id="tema4-column" class="black shrink flex">
                     <div class="popup-txt">
                         <h2>Grundlægende UX</h2>
                         <p>I semesterets sidste tema fik man en forståelse for hvordan man kan skabe en process som giver ens produkt en bedre interaktion mellem bruger og brugergrænseflader. Dette mål opnås ved brug af et Design Sprint som både indeholder idegenerering, test og produktion af en app til smartphones. Dette Sprint skaber en konkret ide som er baseret på research. </p>
@@ -129,23 +129,23 @@
                 </div>
             </div>
         </div>
-        <div id="portfolio-indhold">
+        <div id="portfolio-indhold" class="flex">
 
-            <div class="top-row">
+            <div class="top-row flex">
                 <div class="horisontal-box">
                     <figure>
                         <img src="billeder/stilart-screen.png" alt="Stilart screenshot">
                     </figure>
-                    <div id="tema1-btn">
+                    <div id="tema1-btn" class="black">
                         <div class="txt">
                             <h1>Tema 1</h1>
                             <h2>Grundlægende web</h2>
                         </div>
                     </div>
                     <div id="hover-square-tema1">
-                        <div class="hover-knap"> <a href="http://madsiversenn.dk/kea/01_web/04_responsive/01_04_01_responsive_site_v2/?1">Website</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="http://madsiversenn.dk/kea/01_web/04_responsive/01_04_01_responsive_site_v2/?1">Website</a>
                         </div>
-                        <div class="hover-knap"> <a href="http://madsiversenn.dk/kea/01_web/03_ui/01_03_04_styletile_v2/">Dokumentationssite</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="http://madsiversenn.dk/kea/01_web/03_ui/01_03_04_styletile_v2/">Dokumentationssite</a>
                         </div>
                     </div>
                 </div>
@@ -156,42 +156,42 @@
                         <img src="billeder/chopper-screen.png" alt="Chopper screenshot">
                     </figure>
 
-                    <div id="tema2-btn">
+                    <div id="tema2-btn" class="black">
                         <div class="txt">
                             <h1>Tema 2</h1>
                             <h2>Grundlægende animation</h2>
                         </div>
                     </div>
                     <div id="hover-square-tema2">
-                        <div class="hover-knap"> <a href="http://madsiversenn.dk/kea/02_animation/02-js/spil/?1">Eget spil</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="http://madsiversenn.dk/kea/02_animation/02-js/spil/?1">Eget spil</a>
                         </div>
-                        <div class="hover-knap"> <a href="   https://drive.google.com/open?id=1kxWua5WcO7DdVm-fl3Fpe8UxdIMzED1d">Eget dokumentationsite</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="   https://drive.google.com/open?id=1kxWua5WcO7DdVm-fl3Fpe8UxdIMzED1d">Eget dokumentationsite</a>
                         </div>
-                        <div class="hover-knap"> <a href="http://greenbananas.dk/kea/02-animation/04-projekt/?1">Gruppe spil</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="http://greenbananas.dk/kea/02-animation/04-projekt/?1">Gruppe spil</a>
                         </div>
-                        <div class="hover-knap"> <a href="  http://madsiversenn.dk/kea/02_animation/02-js/Gruppe-22_dokumentationssite">Gruppe dokumentationssite</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="  http://madsiversenn.dk/kea/02_animation/02-js/Gruppe-22_dokumentationssite">Gruppe dokumentationssite</a>
                         </div>
 
                     </div>
 
                 </div>
             </div>
-            <div class="top-row">
+            <div class="top-row flex">
                 <div class="horisontal-box">
 
                     <figure>
                         <img src="billeder/redesign-screen.png" alt="Redesign screenshot">
                     </figure>
-                    <div id="tema3-btn">
+                    <div id="tema3-btn" class="black">
                         <div class="txt">
                             <h1>Tema 3</h1>
                             <h2>Grundlægende indhold</h2>
                         </div>
                     </div>
                     <div id="hover-square-tema3">
-                        <div class="hover-knap"> <a href="http://beansprout.dk/kea/03-content/03-redesign/03_02_08_redesign/?fbclid=IwAR3YnGBuYPrbrrBujAyn-uMPTgaSfOnkZUCAKv70VGYZpssjwxio-bR2Vps">Website</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="http://beansprout.dk/kea/03-content/03-redesign/03_02_08_redesign/?fbclid=IwAR3YnGBuYPrbrrBujAyn-uMPTgaSfOnkZUCAKv70VGYZpssjwxio-bR2Vps">Website</a>
                         </div>
-                        <div class="hover-knap"> <a href="http://madsiversenn.dk/kea/03-content/03_02_07_dokumentationssite/?1"> Dokumentationssite</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="http://madsiversenn.dk/kea/03-content/03_02_07_dokumentationssite/?1"> Dokumentationssite</a>
                         </div>
                     </div>
                 </div>
@@ -201,20 +201,20 @@
                         <img src="billeder/sort.png" alt="App screenshot">
                     </figure>
 
-                    <div id="tema4-btn">
+                    <div id="tema4-btn" class="black">
                         <div class="txt">
                             <h1>Tema 4</h1>
                             <h2>Grundlægende UX</h2>
                         </div>
                     </div>
                     <div id="hover-square-tema4">
-                        <div class="hover-knap"> <a href="  https://xd.adobe.com/view/555550de-40fb-4471-4aa6-9201d74390a0-2364/">Sprint prototype</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="  https://xd.adobe.com/view/555550de-40fb-4471-4aa6-9201d74390a0-2364/">Sprint prototype</a>
                         </div>
-                        <div class="hover-knap"> <a href="http://www.madsiversenn.dk/kea/04_ux/web_prototype/login.html">Web prototype</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="http://www.madsiversenn.dk/kea/04_ux/web_prototype/login.html">Web prototype</a>
                         </div>
-                        <div class="hover-knap"> <a href="https://xd.adobe.com/view/fc5e43d6-6470-4e6d-5048-178999b9ef5c-8a6f/screen/5a9888ec-0b0e-4abb-aec1-d80bcb0c306a/iPhone-6-7-8-9/?fbclid=IwAR2VWzqG3DiQ3gz6viGTxzbbmUkkkAlcEHc70MOTniojgqX_czO_Mv6wDXI">Kea social</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href="https://xd.adobe.com/view/fc5e43d6-6470-4e6d-5048-178999b9ef5c-8a6f/screen/5a9888ec-0b0e-4abb-aec1-d80bcb0c306a/iPhone-6-7-8-9/?fbclid=IwAR2VWzqG3DiQ3gz6viGTxzbbmUkkkAlcEHc70MOTniojgqX_czO_Mv6wDXI">Kea social</a>
                         </div>
-                        <div class="hover-knap"> <a href=" https://drive.google.com/file/d/13iWS5OIYsVh2FAgmMEIlVRHRbPhLlRcd/view">Dokumentationssite</a>
+                        <div class="hover-knap gradient-background gradient-image"> <a href=" https://drive.google.com/file/d/13iWS5OIYsVh2FAgmMEIlVRHRbPhLlRcd/view">Dokumentationssite</a>
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
         </div>
     </section>
     <footer>
-        <div id="kontakt-row">
+        <div id="kontakt-row" class="black flex">
             <figure class="circle">
                 <img src="billeder/name.png" alt="Navn">
                 <div class="footer-txt">
