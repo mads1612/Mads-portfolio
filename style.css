@@ -12,3 +12,36 @@ body {
     background-color: var(--my-yellow-background);
     height: 100%;
 }
+
+.hide {
+    display: none;
+}
+
+.black {
+    background-color: var(--my-black-background);
+}
+
+.yellow {
+    color: var(--my-yellow-letters);
+}
+
+.yellow-background {
+    background-color: var(--my-yellow-background);
+}
+
+.gradient-background {
+    background-color: var(--my-gradient-background);
+    --my-gradient-background-image
+}
+
+.gradient-image {
+    background-image: var(--my-gradient-background-image);
+}
+
+.white {
+    color: var(--my-white-letters)
+}
+
+.flex {
+    display: flex;
+}
