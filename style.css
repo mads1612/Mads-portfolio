@@ -13,6 +13,56 @@ body {
     height: 100%;
 }
 
+
+h1 {
+    font-family: star-bold;
+    color: #FAD102;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: star-regular;
+    color: #FAD102;
+    font-size: 2rem;
+}
+
+p {
+    font-family: tryst;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: tryst;
+    font-size: 1rem;
+}
+
+@font-face {
+    font-family: tryst;
+    src: url('fonts/tryst/tryst-regular-webfont.woff2') format('woff2'),
+        url('font/tryst/tryst-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: star-regular;
+    src: url('fonts/star-regular/stardosstencil-regular-webfont.woff2') format('woff2'),
+        url('font/tryst/tryst-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: star-bold;
+    src: url('fonts/star-bold/stardosstencil-bold-webfont.woff2') format('woff2'),
+        url('font/tryst/tryst-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .hide {
     display: none;
 }
