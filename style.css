@@ -696,3 +696,140 @@ nav a {
 
 
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+
+    p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #kontakt-row p,
+    a {
+        font-size: 0.5rem;
+    }
+
+    #om img {
+        height: 65vw;
+        width: 65vw;
+    }
+
+    .skills {
+        font-size: 2vw;
+    }
+
+    .skills {
+        height: 4vw;
+    }
+
+    #box {
+        margin-top: 20vw;
+    }
+
+    #portfolio img {
+        width: 100%;
+    }
+
+    #portfolio .tema-container p {
+        font-size: 1rem;
+    }
+
+    #portfolio .tema-container h2 {
+        font-size: 1.5rem;
+    }
+
+    #tema2-column {
+        width: 55vw;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hover-knap {
+        margin-bottom: 3vw;
+    }
+
+    .hover-knap a {
+        font-size: 0.8rem;
+    }
+
+    #hover-square-tema1 {
+        opacity: 1;
+    }
+
+    #hover-square-tema2 {
+        opacity: 1;
+    }
+
+    #hover-square-tema3 {
+        opacity: 1;
+    }
+
+    #hover-square-tema4 {
+        opacity: 1;
+    }
+
+    .hover-knap {
+        cursor: pointer;
+    }
+
+    .tema-container2 {
+        flex-direction: column-reverse;
+        margin-bottom: 10vw;
+
+    }
+
+    .left-pictures-box img {
+        width: 50vw;
+    }
+
+    .left-column-box {
+        width: 52vw;
+    }
+
+    .right-pictures img {
+        width: ;
+    }
+
+    .right-pictures {
+        width: 100%;
+    }
+
+    .right-pictures-box img {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    #forside img {
+        height: 190vw;
+        width: 190vw;
+        margin-left: -45vw;
+    }
+
+    #forside {
+        overflow: hidden;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #menuknap {
+        opacity: 1;
+        margin: 1vw;
+    }
+
+    .nav-button a {
+        font-size: 0.7rem;
+    }
+
+}
